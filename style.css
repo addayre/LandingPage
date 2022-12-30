@@ -1,0 +1,6 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Sora:wght@500&family=Urbanist:wght@200&display=swap');
+
+/* Styles-CSS */
+@import "./stylesCSS/nav-bar.css";
+@import "./stylesCSS/main-content.css";

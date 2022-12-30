@@ -1,0 +1,32 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+nav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 15px 15vh;
+}
+.nav-logo {
+    width: 12vh;
+}
+#menu-header ul li {
+    display: inline;
+}
+#menu-header ul li a{
+    font-family: 'Urbanist', sans-serif;
+    font-size: 24px;
+    color: white;
+    padding: 0px 35px;
+    display: inline-block;
+    text-decoration: none;
+}
+nav .icon {
+    margin: 0 -10vh;
+    font-size: 24px;
+    position: relative;
+    left: 92.5vh;
+}
