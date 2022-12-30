@@ -11,3 +11,47 @@ body {
     background-size: cover;
     backdrop-filter: blur(30px) brightness(60%);
 }
+body, html {
+    overflow: hidden;
+}
+section {
+    padding: 0px 13vh;
+}
+.primary-logo {
+    position: relative;
+    top: -10vh;
+    left: 90vh;
+    width: 105vh;
+}
+h1 {
+    font-family: 'Sora', sans-serif;
+    font-size: 11vh;
+    color: white;
+    text-shadow: 0 0 5px white, 0 0 10px darkorchid;
+    position: absolute;
+    top: 30vh;
+}
+p {
+    font-family: 'Didact Gothic', sans-serif;
+    color: white;
+    position: absolute;
+    font-size: 20px;
+    width: 84vh;
+    top: 59vh;
+}
+button {
+    font-family: 'Didact Gothic', sans-serif;
+    cursor: pointer;
+    position: relative;
+    right: 105.5vh;
+    top: -19.5vh;
+    font-size: 4vh;
+    border-radius: 18px;
+    padding: 8px 80px;
+    text-align: center;
+    text-shadow: 0vh 0vh 1vh black;
+    box-shadow: 0vh 0vh 1vh black inset;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+}
