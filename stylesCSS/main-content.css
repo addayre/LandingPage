@@ -35,7 +35,7 @@ p {
     font-family: 'Didact Gothic', sans-serif;
     color: white;
     position: absolute;
-    font-size: 20px;
+    font-size: 22px;
     width: 84vh;
     top: 55vh;
 }
@@ -44,7 +44,7 @@ button {
     cursor: pointer;
     position: relative;
     right: 80vh;
-    top: -6vh;
+    top: -4vh;
     font-size: 4vh;
     border-radius: 18px;
     padding: 8px 80px;
