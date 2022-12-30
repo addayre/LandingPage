@@ -4,29 +4,37 @@
     box-sizing: border-box;
 }
 nav {
+    padding: 10px 11.5vh;
     display: flex;
-    justify-content: flex-start;
     align-items: center;
-    flex-wrap: wrap;
-    padding: 15px 15vh;
+    justify-content: space-between;
 }
-.nav-logo {
-    width: 12vh;
-}
-#menu-header ul li {
+nav ul li {
     display: inline;
 }
-#menu-header ul li a{
+nav ul li a {
     font-family: 'Urbanist', sans-serif;
     font-size: 24px;
     color: white;
-    padding: 0px 35px;
+    margin: 0 2vh;
     display: inline-block;
     text-decoration: none;
+    text-shadow: 0px 10px 1vh black;
+    transition: 0.1s;
 }
-nav  .icon {
-    margin: 0 -10vh;
-    font-size: 24px;
+nav ul li a:hover {
+    transform: scale(1.1);
+}
+.icon {
+    color: white;
+    transition: 0.2s;
+}
+.icon:hover {
+    transform: scale(1.2);
+}
+.nav-logo {
     position: relative;
-    left: 92.5vh;;
-}
+    left: -12vh;
+    width: 15vh;
+    transition: 0.5s;
+}  

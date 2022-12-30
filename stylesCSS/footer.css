@@ -1,0 +1,22 @@
+footer {
+    padding: 0px 13vh;
+}
+footer p {
+    position: relative;
+    top: 2vh;
+    font-family: 'Urbanist', sans-serif;
+    font-size: 16px;
+}
+.platforms {
+    margin: 0 1.5vh;
+    width: 11vh;
+    position: relative;
+    top: 2vh;
+    left: -1.7vh;
+}
+.credit {
+    font-size: 10px;
+    position: relative;
+    top: 12vh;
+    left: 84vh;
+}
