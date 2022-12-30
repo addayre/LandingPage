@@ -19,7 +19,7 @@ section {
 }
 .primary-logo {
     position: relative;
-    top: -10vh;
+    top: -14vh;
     left: 90vh;
     width: 105vh;
 }
@@ -29,7 +29,7 @@ h1 {
     color: white;
     text-shadow: 0 0 5px white, 0 0 10px darkorchid;
     position: absolute;
-    top: 30vh;
+    top: 26vh;
 }
 p {
     font-family: 'Didact Gothic', sans-serif;
@@ -37,21 +37,41 @@ p {
     position: absolute;
     font-size: 20px;
     width: 84vh;
-    top: 59vh;
+    top: 55vh;
 }
 button {
     font-family: 'Didact Gothic', sans-serif;
     cursor: pointer;
     position: relative;
     right: 105.5vh;
-    top: -19.5vh;
+    top: -23.5vh;
     font-size: 4vh;
     border-radius: 18px;
     padding: 8px 80px;
     text-align: center;
     text-shadow: 0vh 0vh 1vh black;
-    box-shadow: 0vh 0vh 1vh black inset;
     background-color: transparent;
     color: white;
     border: 2px solid white;
+    transition: 0.5s;
+}
+.button:hover {
+    color: black;
+    background-color: white;
+}
+footer {
+    padding: 0px 13vh;
+}
+footer p {
+    position: relative;
+    top: -16vh;
+    font-family: 'Urbanist', sans-serif;
+    font-size: 16px;
+}
+.platforms {
+    margin: 0 1.5vh;
+    width: 11vh;
+    position: relative;
+    top: -16vh;
+    left: -1.7vh;
 }
