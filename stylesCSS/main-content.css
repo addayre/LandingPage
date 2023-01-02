@@ -12,10 +12,13 @@ body {
     backdrop-filter: blur(30px) brightness(60%);
 }
 body, html {
+    /* a cada 1rem será considerado 10px */
+    font-size: 62.5%;
     overflow: hidden;
 }
 section {
     padding: 0px 13vh;
+    width: 100%;
 }
 .primary-logo {
     position: relative;
@@ -25,7 +28,7 @@ section {
 }
 h1 {
     font-family: 'Sora', sans-serif;
-    font-size: 9vh;
+    font-size: 8.5rem;
     color: white;
     text-shadow: 0 0 5px white, 0 0 10px darkorchid;
     position: absolute;
@@ -35,17 +38,19 @@ p {
     font-family: 'Didact Gothic', sans-serif;
     color: white;
     position: absolute;
-    font-size: 22px;
-    width: 84vh;
+    font-size: 2.2rem;
+    width: 40%;
     top: 55vh;
+    left: 13.4vh;
 }
-button {
+.button-container {
+margin-top: -8vh;
+}
+.button {
     font-family: 'Didact Gothic', sans-serif;
     cursor: pointer;
-    position: relative;
-    right: 80vh;
-    top: -4vh;
-    font-size: 4vh;
+    display: inline;
+    font-size: 3.5rem;
     border-radius: 18px;
     padding: 8px 80px;
     text-align: center;

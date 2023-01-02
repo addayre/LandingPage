@@ -1,0 +1,29 @@
+@media (max-width: 1440px) {
+    .primary-logo {
+        top: 6vh;
+        left: 90vh;
+        width: 70vh;
+    }
+    h1 {
+        font-size: 7.5rem;
+    }
+    p {
+        font-size: 1.8rem;
+    }
+    button {
+        margin-top: 9vh;
+    }
+    footer p {
+        left: 1vh;
+        top: 10vh;
+    }
+    .platforms {
+        left: -0.85vh;
+        width: 9vh;
+        top: 10vh;
+    }
+    .credit {
+        top: 20vh;
+        left: 70vh
+    }
+}

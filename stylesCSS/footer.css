@@ -3,7 +3,8 @@ footer {
 }
 footer p {
     position: relative;
-    top: 5vh;
+    top: 8vh;
+    left: 0.5vh;
     font-family: 'Urbanist', sans-serif;
     font-size: 16px;
 }
@@ -11,12 +12,12 @@ footer p {
     margin: 0 1.5vh;
     width: 11vh;
     position: relative;
-    top: 5vh;
-    left: -1.7vh;
+    top: 8vh;
+    left: -1.3vh;
 }
 .credit {
-    font-size: 10px;
-    position: relative;
-    top: 12vh;
-    left: 84vh;
+    font-size: 1rem;
+    position: absolute;
+    top: 97vh;
+    left: 98vh;
 }
