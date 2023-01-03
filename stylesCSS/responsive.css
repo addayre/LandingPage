@@ -4,21 +4,23 @@
         font-size: 3rem;
     }
     .nav-logo {
-        left: -33vh;
+        left: -25vh;
     }
     .primary-logo {
-        left: 52vw;
+        width: 75vh;
+        left: 45vw;
     }
     h1 {
-        font-size: 11.5rem;
+        top: 31vh;
+        font-size: 12.5rem;
     }
     p {
-        font-size: 3rem;
-        top: 56vh;
+        font-size: 3.5rem;
+        top: 52vh;
     }
     .button {
-        font-size: 4.5rem;
-        margin-top: 2vh;
+        font-size: 5.5rem;
+        margin-top: 4vh;
     }
     footer p {
         font-size: 2rem;
@@ -43,7 +45,7 @@
         font-size: 8.5rem;
     }
     p {
-        top: 55vh;
+        top: 53vh;
         font-size: 2.2rem;
     }
     .button {
@@ -76,17 +78,17 @@
     }
     .button {
         font-size: 2.5rem;
-        margin-top: 9vh;
+        margin-top: 4vh;
     }
     footer p {
         font-size: 1.3rem;
         left: 1vh;
-        top: 6vh;
+        top: 10vh;
     }
     .platforms {
         left: -0.6vh;
-        width: 9vh;
-        top: 6vh;
+        width: 11vh;
+        top: 10vh;
     }
     .credit {
         font-size: 1.2rem;
@@ -94,7 +96,7 @@
         left: 79vh;
     }
 }
-/* Resolution Laptop-S */
+/* Resolution Laptop */
 @media (max-width: 1024px) {
     nav ul li {
         font-size: 2rem;
@@ -144,6 +146,7 @@
         left: 17.5vh;
     }
 }
+/* Tablet */
 @media (max-width: 768px) {
     .links {
         position: relative;
@@ -192,6 +195,7 @@
         left: 16.5vh; 
     }
 }
+/* Mobile device-G */
 @media (max-width: 425px) {
     .links {
         opacity: 0;
