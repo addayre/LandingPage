@@ -10,8 +10,9 @@ body {
     background-position: center;
     background-size: cover;
     backdrop-filter: blur(30px) brightness(60%);
+    overflow: hidden;
 }
-body, html {
+html {
     /* a cada 1rem será considerado 10px */
     font-size: 62.5%;
     overflow: hidden;

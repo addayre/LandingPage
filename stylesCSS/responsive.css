@@ -3,6 +3,9 @@
     nav ul li {
         font-size: 3rem;
     }
+    .nav-logo {
+        left: -33vh;
+    }
     .primary-logo {
         left: 52vw;
     }
@@ -22,13 +25,16 @@
     }
     .credit {
         font-size: 1.5rem;
-        left: 47vw;
+        left: 46.5vw;
     }
 }
 /* Resolution Full-HD */
 @media (max-width: 1920px) {
     nav ul li {
         font-size: 2.6rem;
+    }
+    .nav-logo {
+        left: -35vh;
     }
     .primary-logo {
         left: 49.8vw;
@@ -48,11 +54,15 @@
         font-size: 1.6rem;
     }
     .credit {
+        left: 45.5vw;
         font-size: 1rem;
     }
 }
 /* Resolution Laptop-G */
 @media (max-width: 1440px) {
+    .nav-logo {
+        left: -27vh;
+    }
     .primary-logo {
         top: 6vh;
         left: 90vh;
@@ -81,7 +91,7 @@
     .credit {
         font-size: 1.2rem;
         top: 97vh;
-        left: 82vh;
+        left: 79vh;
     }
 }
 /* Resolution Laptop-S */
@@ -91,7 +101,7 @@
     }
     .nav-logo {
         width: 12vh;
-        left: -13.5vh;
+        left: -19.5vh;
     }
     .primary-logo {
         opacity: 1;
@@ -132,5 +142,115 @@
     .credit {
         font-size: 0.8rem;
         left: 17.5vh;
+    }
+}
+@media (max-width: 768px) {
+    .links {
+        position: relative;
+        left: 3vh;
+    }
+    #menuBar {
+        left: -33vh;
+        opacity: 0;
+    }
+    .nav-logo {
+        width: 10vh;
+        left: -49vh;
+    }
+    nav ul li {
+        font-size: 1.6rem;
+    }
+    .icon {
+        position: relative;
+        left: 7.5vh;
+    } 
+    h2 {
+        top: 12.5vh;
+        left: 17.5vh;
+    } 
+    .primary-logo {
+        left: 12.5vh;
+        width: 45vh;
+    }
+    p {
+        width: 65%;
+        left: 16.5vh;
+        top: 60vh;
+    }
+    .button {
+        font-size: 2rem;
+        margin: 38vh 0.5vh;
+    }
+    footer p {
+        left: 12vh;
+    }
+    .platforms {
+        top: -31.5vh;
+        left: 10vh;    
+    }
+    .credit {
+        left: 16.5vh; 
+    }
+}
+@media (max-width: 425px) {
+    .links {
+        opacity: 0;
+    };
+    nav ul li {
+        font-size: 1.69rem;
+    }
+    .nav-logo {
+        width: 8vh;
+        left: -3vh;
+    }
+    #menuBar {
+        left: -19vh;
+        opacity: 1;
+    }
+    .icons {
+        display: flex;
+        opacity: 1;
+    }
+    .icon {
+        left: 1vh;
+        opacity: 1;
+    }
+    h2 {
+        font-size: 3rem;
+        left: 6vh;
+    }
+    .primary-logo {
+        top: 7vh;
+        left: -6vh;
+        width: 40vh;
+    }
+    p {
+        width: 65%;
+        left: 9.2vh;
+        top: 51vh;
+        font-size: 1.6rem;
+    }
+    .button-container {
+        flex-direction: column;
+    }
+    .button {
+        margin: 0.5vh 0vh;
+        font-size: 1.5rem;
+        width: 35vh;
+        position: relative;
+        top: 33.5vh;
+        left: -4.5vh;
+    }
+    footer p {
+        top: 37vh;
+        left: 5vh;
+    }
+    .platforms {
+        width: 9vh;
+        top: 38vh;
+        left: 01vh; 
+    }
+    .credit {
+        left: 10vh;
     }
 }

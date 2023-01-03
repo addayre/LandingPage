@@ -28,6 +28,7 @@ nav ul li a:hover {
     transform: scale(1.1);
 }
 .icon {
+    position: relative;
     color: white;
     transition: 0.2s;
 }
@@ -40,3 +41,10 @@ nav ul li a:hover {
     width: 15vh;
     transition: 0.5s;
 }  
+#menuBar {
+    position: relative;
+    color: white;
+    font-size: 2rem;
+    opacity: 0;
+    text-shadow: 0vh 0vh 1vh black;
+}
