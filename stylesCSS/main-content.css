@@ -21,6 +21,7 @@ section {
     width: 100%;
 }
 .primary-logo {
+    flex-wrap: wrap;
     position: relative;
     top: 2vh;
     left: 103.5vh;
@@ -33,6 +34,16 @@ h1 {
     text-shadow: 0 0 5px white, 0 0 10px darkorchid;
     position: absolute;
     top: 32vh;
+}
+h2 {
+    font-family: 'Sora', sans-serif;
+    font-size: 4.5rem;
+    color: white;
+    text-shadow: 0 0 5px white, 0 0 10px darkorchid;
+    position: absolute;
+    top: 15vh;
+    left: 32.5vh;
+    opacity: 0;
 }
 p {
     font-family: 'Didact Gothic', sans-serif;

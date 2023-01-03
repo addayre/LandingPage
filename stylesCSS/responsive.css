@@ -1,3 +1,57 @@
+/* Resolution 4k */
+@media (max-width: 2560px) {
+    nav ul li {
+        font-size: 3rem;
+    }
+    .primary-logo {
+        left: 52vw;
+    }
+    h1 {
+        font-size: 11.5rem;
+    }
+    p {
+        font-size: 3rem;
+        top: 56vh;
+    }
+    .button {
+        font-size: 4.5rem;
+        margin-top: 2vh;
+    }
+    footer p {
+        font-size: 2rem;
+    }
+    .credit {
+        font-size: 1.5rem;
+        left: 47vw;
+    }
+}
+/* Resolution Full-HD */
+@media (max-width: 1920px) {
+    nav ul li {
+        font-size: 2.6rem;
+    }
+    .primary-logo {
+        left: 49.8vw;
+    }
+    h1 {
+        font-size: 8.5rem;
+    }
+    p {
+        top: 55vh;
+        font-size: 2.2rem;
+    }
+    .button {
+        margin-top: -0.5vh;
+        font-size: 3.5rem;
+    }
+    footer p {
+        font-size: 1.6rem;
+    }
+    .credit {
+        font-size: 1rem;
+    }
+}
+/* Resolution Laptop-G */
 @media (max-width: 1440px) {
     .primary-logo {
         top: 6vh;
@@ -15,6 +69,7 @@
         margin-top: 9vh;
     }
     footer p {
+        font-size: 1.3rem;
         left: 1vh;
         top: 6vh;
     }
@@ -24,7 +79,58 @@
         top: 6vh;
     }
     .credit {
+        font-size: 1.2rem;
         top: 97vh;
         left: 82vh;
+    }
+}
+/* Resolution Laptop-S */
+@media (max-width: 1024px) {
+    nav ul li {
+        font-size: 2rem;
+    }
+    .nav-logo {
+        width: 12vh;
+        left: -13.5vh;
+    }
+    .primary-logo {
+        opacity: 1;
+        width: 50vh;
+        top: 13vh;
+        left: 25vh;
+    }
+    h1 {
+        opacity: 0;
+    }
+    h2 {
+        opacity: 1;
+    }
+    p {
+        font-size: 2rem;
+        text-align: center;
+        width: 70%;
+        left: 18.5vh;
+        top: 65vh;
+    }
+    .button-container {
+        display: flex;
+        justify-content: center;
+    }
+    .button {
+        left: 50vh;
+        font-size: 2rem;
+        margin: 35vh 0.5vh;
+    }
+    footer p {
+        top: -32vh;
+        left: 13.5vh;
+    }
+    .platforms {
+        top: -31vh;
+        left: 24.5vh;    
+    }
+    .credit {
+        font-size: 0.8rem;
+        left: 17.5vh;
     }
 }

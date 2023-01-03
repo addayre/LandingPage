@@ -3,16 +3,16 @@ footer {
 }
 footer p {
     position: relative;
-    top: 8vh;
+    top: 11vh;
     left: 0.5vh;
     font-family: 'Urbanist', sans-serif;
-    font-size: 16px;
+    font-size: 1.6rem;
 }
 .platforms {
     margin: 0 1.5vh;
     width: 11vh;
     position: relative;
-    top: 8vh;
+    top: 10.5vh;
     left: -1.3vh;
 }
 .credit {
