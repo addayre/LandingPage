@@ -10,20 +10,21 @@
     p {
         font-size: 1.8rem;
     }
-    button {
+    .button {
+        font-size: 2.5rem;
         margin-top: 9vh;
     }
     footer p {
         left: 1vh;
-        top: 10vh;
+        top: 6vh;
     }
     .platforms {
-        left: -0.85vh;
+        left: -0.6vh;
         width: 9vh;
-        top: 10vh;
+        top: 6vh;
     }
     .credit {
-        top: 20vh;
-        left: 70vh
+        top: 97vh;
+        left: 82vh;
     }
 }
